@@ -1,0 +1,90 @@
+/*
+// =================================================================================
+// Base font sizing and leading.
+// =================================================================================
+$font-size: 16px;                                              // 16 pixels
+$leading: 1.6 ;           			                         // 26 pixels
+
+
+// =================================================================================
+// Body sizing.
+// =================================================================================
+$column-width: 90px;
+$split-gutter-width: 22px;
+$body-width: (12 * ($column-width + $split-gutter-width)) + 22; // 1344 + 22 = 1366 pixels , fixed by adding 22
+$full-column: ($column-width + $split-gutter-width) ; //112px
+
+$wrapper-full-width: $body-width;
+
+// =================================================================================
+// Measurement Grid-specific variables.
+// =================================================================================
+$grid-width: $column-width;
+$grid-gutter: $split-gutter-width;
+$color-grid-column: rgba(200, 0, 0, 0.2);
+$color-grid-baseline: rgba(56, 255, 255, 0.8);
+
+// =================================================================================
+// Color Codes
+// =================================================================================
+
+$color-black:			rgb(0,0,0);
+$color-slate-grey:		rgb(81,77,88);
+$color-dark:			rgb(37,32,46);
+$color-white:			rgb(250,250,250);
+$color-red:				rgb(255,0,0);
+$color-green:			rgb(0,255,0);
+$color-blue:			rgb(0,0,255);
+$color-turquoise-green: rgb(10,237,143);
+$color-brownish-grey: 	rgb(105,104,95);
+$color-aqua-marine:		rgb(42,204,221);
+$color-aqua-blue:		rgb(10,215,237);
+$color-purpley-grey:	rgb(154,152,157);
+$color-pale-grey:		rgba(154,152,157,0.5);
+$color-light-grey:		rgb(213,232,221);
+$color-light-grey-transparent: rgba(213,232,221,0.1);
+$color-border: #21bde1;
+$color-foreground: #555;
+$color-background-nav: #f0ab3b;
+$color-duck-egg-blue: rgba(228,249,240,1);
+$color-duck-egg-blue-t: rgba(228,249,240,0.96);
+$color-green-blue: rgb(33, 205,134);
+
+// =================================================================================
+// Font Variables
+// =================================================================================
+$contax-sans-regular-stack : 'Contax Sans Regular', sans-serif;
+$contax-sans-italic-stack : 'Contax Sans Italic', sans-serif;
+$work-sans-stack : 'Work Sans', sans-serif;
+$thin: 100;
+$extra-light: 200;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$semi-bold: 600;
+
+// =================================================================================
+//Header Variables:
+// =================================================================================
+$header-background-image-src: url('');
+$header-height-full: 100%;
+$left-nav-arrow-image-src: url('');
+$black-left-nav-arrow-image-src: url('');
+$left-nav-arrow-hover-image-src: url('');
+$right-nav-arrow-image-src: url('');
+$black-right-nav-arrow-image-src: url('');
+$right-nav-arrow-hover-image-src: url('');
+$bottom-nav-arrow-image-src: url('');
+
+// =================================================================================
+//Menu Variables
+// =================================================================================
+$sub-menu-arrow-image-src: url('');
+$sub-menu-arrow-back-image-src: url('');
+
+
+$readmore-arrow-right-image-src: url('');
+$readmore-arrow-down-image-src: url('');
+$readmore-arrow-up-image-src: url('');
+
+*/
