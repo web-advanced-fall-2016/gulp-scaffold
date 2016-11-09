@@ -139,7 +139,7 @@ gulp.task('serve', ['scripts', 'styles'], () => {
 
 gulp.task('clean', () => del(['.tmp', 'dist/*', '!dist/.git'], { dot: true }));
 
-gulp.task('default', ['clean'], cb =>
+gulp.task('build', ['clean'], cb =>
     runSequence(
         'styles', ['lintJS', 'html', 'scripts', 'images', 'copy'],
         cb
